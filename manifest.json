@@ -2,6 +2,9 @@
     "manifest_version": 2,
     "name": "Hacker News Dark Theme",
     "short_name": "hndt",
+    "default_locale": "en",
+    "author": "Adam Zerella",
+    "homepage_url": "https://github.com/adamzerella/ext-hn-darkmode",
     "version": "0.1.0",
     "description": "A non-invaise dark theme for Hacker News.",
     "permissions": [ "activeTab", "tabs", "https://*/*" ],
@@ -10,7 +13,13 @@
       "persistent": false
     },
     "browser_action": {
-        "default_title": "Hacker News Dark Theme"
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "24": "icons/icon24.png",
+        "32": "icons/icon32.png"
+      },
+      "default_title": "Hacker News Dark Theme"
     },
-    "web_accessible_resources" : [ "extension.js" ]
+    "web_accessible_resources" : [ "extension.js" ],
+    "icons": { "16": "icons/icon16.png", "48": "icons/icon64.png", "128": "icons/icon128.png" }
   }
