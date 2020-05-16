@@ -6,7 +6,7 @@
     "homepage_url": "https://github.com/adamzerella/ext-hn-darkmode",
     "version": "0.1.0",
     "description": "A non-invaise dark theme for Hacker News.",
-    "permissions": [ "activeTab", "tabs", "https://*/*" ],
+    "permissions": [ "https://news.ycombinator.com/" ],
     "background": {
       "scripts": ["extension.js"],
       "persistent": false
