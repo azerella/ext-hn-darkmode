@@ -1,15 +1,15 @@
 {
-    "name": "HackerNews Dark Theme",
+    "name": "Hacker News Dark Theme",
     "short_name": "hndt",
     "version": "0.1.0",
-    "description": "Switch to a Dark Theme for the popular website Hacker News.",
+    "description": "A non-invaise dark theme for Hacker News.",
     "permissions": [ "activeTab" ],
     "background": {
       "scripts": ["extension.js"],
       "persistent": false
     },
     "browser_action": {
-        "default_title": "DO it"
+        "default_title": "Hacker News Dark Theme"
     },
     "web_accessible_resources" : [ "extension.js" ],
     "manifest_version": 2
