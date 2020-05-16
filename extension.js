@@ -1,7 +1,9 @@
-chrome.browserAction.onClicked.addListener(function(tab) {
-    // No tabs or host permissions needed!
-    console.log('Turning ' + tab.url + ' red!');
-    chrome.tabs.executeScript({
-      code: 'document.body.style.backgroundColor="red"'
-    });
-  });
+function isHackerNews(url) {
+  return new URL(url.host === 'news.ycombinator.com');
+}
+
+chrome.tabs.getCurrent((tab) => {
+  if (isHackerNews(tab.url)) {
+    console.log(`yay`);
+  }
+})
