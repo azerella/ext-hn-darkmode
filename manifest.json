@@ -1,9 +1,10 @@
 {
+    "manifest_version": 2,
     "name": "Hacker News Dark Theme",
     "short_name": "hndt",
     "version": "0.1.0",
     "description": "A non-invaise dark theme for Hacker News.",
-    "permissions": [ "activeTab" ],
+    "permissions": [ "activeTab", "tabs", "https://*/*" ],
     "background": {
       "scripts": ["extension.js"],
       "persistent": false
@@ -11,6 +12,5 @@
     "browser_action": {
         "default_title": "Hacker News Dark Theme"
     },
-    "web_accessible_resources" : [ "extension.js" ],
-    "manifest_version": 2
+    "web_accessible_resources" : [ "extension.js" ]
   }
