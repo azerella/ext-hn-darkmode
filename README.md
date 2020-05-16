@@ -6,4 +6,4 @@ A [recent HN post](https://news.ycombinator.com/item?id=23197966) has shown that
 
 ## Preview
 
-![Hacker News Dark Theme Preview](https://github.com/adamzerella/ext-hn-darkmode/extension_preview.png "Hacker News Dark Theme Preview")
+![Hacker News Dark Theme Preview](https://github.com/adamzerella/ext-hn-darkmode/blob/master/extension_preview.png?raw=true "Hacker News Dark Theme Preview")
